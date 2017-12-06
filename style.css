@@ -1,0 +1,53 @@
+/*
+Theme Name: willyzondri
+Theme URI: https://blog.zondri.com/
+Author: the WordPress team
+Author URI: https://blog.zondri.com/
+Description: None
+*/
+
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Merriweather', serif;}
+body{background: #fdfdfd}
+ul,li{list-style: none}
+a{text-decoration: none;color: #ff5252}
+a:hover{color: #ff5252!important}
+.white{background: #fdfdfd}
+.orange{background: #FE9A76}
+.red{background: #b71c1c }
+.brown{background: #212121}
+.indigo{background: #1a237e}
+.wrapper::before,.wrapper::after{content:' ';clear: both;}
+.clear{clear: both}
+.container{margin: 0 auto;max-width: 700px;width: 100%;}
+.none{display: none}
+#main-header{height: 70px;line-height: 70px;border-bottom: 1px solid #e9e9e9}
+#main-header a{font-family: "Lato";text-transform: uppercase;color: #666;}
+#main-header li{display: inline-block;margin-left: 20px;}
+#main-header li a{font-size: 14px;}
+#bloglogo{width: 30%;float: left}
+#bloglogo a{font-size: 18px;font-weight: 700;color: #666;font-family: "Lato";text-transform: uppercase}
+#topmenu{width: 70%;float: left;text-align: right}
+#post_content{color: #333;margin: 20px 0}
+.waktu{float: left;width: 80px;border-right: 1px solid #e9e9e9;color: #ccc}
+.wkt{text-align: center;width: 60px}
+.posted{overflow: hidden;padding: 10px 0;border-bottom: 1px solid #e9e9e9}
+.judul{height: 50px;line-height: 50px;float: left}
+.judul h2{margin-left: 30px;}
+.judul h2 a{font-size: 18px;color: #222;font-family: Lato;font-weight: 400;text-transform:capitalize}
+.tme{display:block;font-family:Lato;text-align: center}
+.tanggal{font-size: 14px;font-weight: 700;display: block;height: 30px;line-height: 30px}
+.bulan{display: block;font-size: 12px;}
+.the_title h2{font-family: "Lato";font-size: 30px;text-transform: uppercase;margin-bottom: 6px;line-height: 40px;}
+.the_content img{max-width: 100%;height: auto}
+.the_content {line-height: 28px;}
+.the_content p{margin-bottom: 15px;font-size: 16px}
+.alignleft{float: left;margin-right: 20px;}
+.alignright{float: right;margin-left: 20px;}
+footer{text-align: center;padding: 20px 0}
+@media screen and (max-width: 728px) {
+    .container{width: 100%;padding: 0 15px;}
+    .the_content img{width: 100%!important;height: auto}
+    .alignleft{float: none;}
+    .alignright{float: none;}
+    footer{padding: 20px!important}
+}
