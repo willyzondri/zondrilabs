@@ -8,7 +8,7 @@
 <body <?php body_class(); ?>>
 <div class='main-wrapper'>
     <header id='main-header' class='wrapper'>
-        <div class='container'>
+        <div class='container xx'>
             <div id='bloglogo'>                
                 <?php if(!is_single()||!is_page){
                     echo ('<h1><a href="'.get_bloginfo('url').'" title="'.get_bloginfo('title').'">'.get_bloginfo('name').'</a></h1>');

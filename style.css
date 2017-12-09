@@ -7,11 +7,11 @@ Description: None
 */
 
 *{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Merriweather', serif;}
-body{background: #fdfdfd}
+body{background: #fdfdfd;background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);background-attachment: fixed;}
 ul,li{list-style: none}
 a{text-decoration: none;color: #ff5252}
 a:hover{color: #ff5252!important}
-.white{background: #fdfdfd}
+/*.white{background: #ececec}*/
 .orange{background: #FE9A76}
 .red{background: #b71c1c }
 .brown{background: #212121}
@@ -19,15 +19,18 @@ a:hover{color: #ff5252!important}
 .wrapper::before,.wrapper::after{content:' ';clear: both;}
 .clear{clear: both}
 .container{margin: 0 auto;max-width: 700px;width: 100%;}
+.container.xx{max-width: 820px;}
 .none{display: none}
-#main-header{height: 70px;line-height: 70px;border-bottom: 1px solid #e9e9e9}
-#main-header a{font-family: "Lato";text-transform: uppercase;color: #666;}
+#main-header{height: 26px;line-height: 26px;background: #ececec;position: fixed;width: 100%;top: 0;box-shadow: 0 0 5px 0 rgba(0,0,0,.4)}
+#main-header a{font-family: "Lato";text-transform: uppercase;color: #222; font-weight: 600}
 #main-header li{display: inline-block;margin-left: 20px;}
 #main-header li a{font-size: 14px;}
 #bloglogo{width: 30%;float: left}
-#bloglogo a{font-size: 18px;font-weight: 700;color: #666;font-family: "Lato";text-transform: uppercase}
+#bloglogo a{font-size: 15px;font-weight: 700;color: #222;font-family: "Lato";text-transform: uppercase;display: block;line-height: 26px;height: 26px}
 #topmenu{width: 70%;float: left;text-align: right}
-#post_content{color: #333;margin: 20px 0}
+#post_content{color: #333;margin: 20px 0;margin-top: 46px;}
+#post_content article{background: #ececec;padding: 5px;margin-bottom: 20px;border-radius: 3px;box-shadow: 0 0 5px 0 rgba(0,0,0,.4)}
+.single #post_content article{padding: 20px;}
 .waktu{float: left;width: 80px;border-right: 1px solid #e9e9e9;color: #ccc}
 .wkt{text-align: center;width: 60px}
 .posted{overflow: hidden;padding: 10px 0;border-bottom: 1px solid #e9e9e9}
